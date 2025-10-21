@@ -2,6 +2,8 @@ name: zoomslider
 channels:
   - conda-forge
   - defaults
+packages:
+  - jupyter-panel-proxy
 dependencies:
   - python=3.11
   - imageio>=2.31.0
